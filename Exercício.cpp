@@ -399,6 +399,8 @@ int main(){
         Pss5<string>(Passou5, sizeof(Passou5) / sizeof(Passou5[0]));
         cout<<endl;
 
+
+        //Este código abaixo dirá qual aluno tem a melhor média:
         for(int i=0 ; i<4 ; i++){
             if(media1>media2 && media1>media3 && media1>media4 && media1> media5){
             melhor1= "\nA maior média foi a do aluno(a): ";
